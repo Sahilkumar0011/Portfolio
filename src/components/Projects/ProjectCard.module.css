@@ -1,0 +1,144 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 415px;
+}
+
+.image {
+  margin-bottom: 26px;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--color-primary-light);
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-text-light);
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 550;
+  border-radius: 9px;
+  background: linear-gradient(145deg, #1e88e5, #b0cee6);
+  color: white;
+  padding: 6px 14px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 3px rgba(5, 165, 245, 0.4);
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff; /* Change text color to white for better contrast */
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;  /* Slightly larger border-radius for a smoother look */
+  background:  rgb(23, 23, 55);/* Blue-green gradient */
+  padding: 12px 22px;  /* Increased padding for a more prominent button */
+  box-shadow: 0 6px 12px rgba(0, 150, 136, 0.4); /* Stronger shadow effect */
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background:blue;
+  transform: translateY(-3px);  
+  box-shadow: 0 5px 5px rgba(0, 15, 136, 0.5);
+}
+
+
+/* New watch video button style */
+.watchVideo {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50px;  /* New rounded pill shape */
+  background: linear-gradient(13deg, #40ffdc, #0045f5); /* Pink gradient for eye-catching effect */
+  padding: 12px 25px;
+  box-shadow: 0 8px 20px rgba(255, 64, 129, 0.6);
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.watchVideo:hover {
+  background: linear-gradient(135deg, #f50057, #ff4081); /* Reversed gradient on hover */
+  transform: scale(1.05) translateY(-3px);
+  box-shadow: 0 10px 24px rgba(255, 64, 129, 0.8);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #000;
+}
+
+.video {
+  width: 100%;
+  height: 315px;
+  border: none;
+  border-radius: 8px;
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Expense management web app",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://stirring-gumdrop-f2565d.netlify.app/",
+    "source": "https://github.com/Sahilkumar0011/Production-Expense-Tracker-website",
+    "video": "https://www.youtube.com/embed/4uF3Q8Y7O4M"
+  },
+  {
+    "title": "AI powered chat web app",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://frolicking-dodol-b03d84.netlify.app/",
+    "source": "https://github.com/Sahilkumar0011/AI-powered-chat-web-application",
+    "video": "https://www.youtube.com/embed/9zI1g_vHuOM"
+  },
+  {
+    "title": "Fullstack Food ordering system",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to how APIs and CRUD works by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://frolicking-dodol-b03d84.netlify.app/",
+    "source": "https://github.com/Sahilkumar0011/AI-powered-chat-web-application"
+  }
+
+]

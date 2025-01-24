@@ -1,0 +1,22 @@
+[
+  {
+    "role": "MERN Stack trainer",
+    "organisation": "Brain mentors pvt ltd",
+    "startDate": "16th july, 2023",
+    "endDate": "18th Aug, 2023",
+    "experiences": ["Worked on learning javascript", "Helped create UI components", "Worked on learning react and node"],
+    "imageSrc": "history/brain_mentors.png"
+  },
+  
+  {
+    "role": "microsoft student learn ambassador",
+    "organisation": "Aadi foundation",
+    "startDate": "sep, 2024",
+    "endDate": "sep, 2024",
+    "experiences": [
+      "Worked on web development",
+      "learned AI integration with web development"
+    ],
+    "imageSrc": "history/aadi_foundation.png"
+  }
+]
